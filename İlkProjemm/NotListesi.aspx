@@ -4,6 +4,7 @@
 
         <tr>
             <th scope="col">ÖĞRENCİ ID</th>
+            <th scope="col">NUMARA</th>
             <th scope="col">AD SOYAD</th>
             <th scope="col">DERS ADI</th>
             <th scope="col">SINAV 1</th>
@@ -19,6 +20,7 @@
                 <ItemTemplate>
                     <tr>
                         <td><%#Eval("OGRENCIID") %></td>
+                        <td><%#Eval("NUMARA") %></td>
                         <td><%#Eval("OGRENCIADSOYAD") %></td>
                         <td><%#Eval("Ders") %></td>
                         <td><%#Eval("SINAV1") %></td>

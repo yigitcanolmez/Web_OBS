@@ -17,6 +17,11 @@
                 <asp:Label for="TxtOgrTelefon" runat="server">Öğrenci Telefon</asp:Label>
                 <asp:TextBox ID="TxtOgrTelefon" runat="server" CssClass="form-control"></asp:TextBox>
             </div>
+            <br />
+            <div>
+                <asp:Label for="txtnumara" runat="server">Öğrenci Numara</asp:Label>
+                <asp:TextBox ID="txtNumara" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
              <br />
             <div>
                 <asp:Label for="TxtOgrMail" runat="server">Öğrenci Mail</asp:Label>

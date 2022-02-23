@@ -11,7 +11,7 @@ namespace İlkProjemm
 {
 
 
-    public partial class OgrEkle
+    public partial class MesajOlustur
     {
 
         /// <summary>
@@ -24,75 +24,48 @@ namespace İlkProjemm
         protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
 
         /// <summary>
-        /// TxtOgrAD control.
+        /// TxtGondereen control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrAD;
+        protected global::System.Web.UI.WebControls.TextBox TxtGondereen;
 
         /// <summary>
-        /// TxtOgrSoyad control.
+        /// TxtAlıcı control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrSoyad;
+        protected global::System.Web.UI.WebControls.TextBox TxtAlıcı;
 
         /// <summary>
-        /// TxtOgrTelefon control.
+        /// TxtMesajBaslik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrTelefon;
+        protected global::System.Web.UI.WebControls.TextBox TxtMesajBaslik;
 
         /// <summary>
-        /// txtNumara control.
+        /// TxtMesajIcerik control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumara;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea TxtMesajIcerik;
 
         /// <summary>
-        /// TxtOgrMail control.
+        /// BtnGonder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrMail;
-
-        /// <summary>
-        /// TxtOgrSifre control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrSifre;
-
-        /// <summary>
-        /// TxtOgrFoto control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtOgrFoto;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button BtnGonder;
     }
 }

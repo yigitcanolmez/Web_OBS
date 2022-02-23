@@ -39,14 +39,22 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="DersListesi.aspx">
                         <i class="glyphicon glyphicon-briefcase"></i>
                         Dersler
                     </a>
-                    <a href="#">
-                        <i class="glyphicon glyphicon-calendar"></i>
+                   
+                      <li class="active">
+                    <a href="#homeSubmenu3" data-toggle="collapse" aria-expanded="false">
+                        <i class="glyphicon glyphicon-comment"></i>
                         Mesajlar
                     </a>
+                           <ul class="collapse list-unstyled" id="homeSubmenu3">
+                        <li><a href="GelenMesajlar.aspx"><i class="glyphicon glyphicon-alert"></i>Gelen Mesajlar</a></li>
+                        <li><a href="GidenMesajlar.aspx"><i class="glyphicon glyphicon-send"></i>Giden Mesajlar</a></li>
+                        <li><a href="MesajOlustur.aspx"><i class="glyphicon glyphicon-pencil"></i>Mesaj Oluştur</a></li>
+
+                    </ul>
                 </li>
                 <li class="active">
                     <a href="#homeSubmenu2" data-toggle="collapse" aria-expanded="false">
@@ -65,18 +73,7 @@
                         Notlar
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="glyphicon glyphicon-blackboard"></i>
-                        İstatistikler
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="glyphicon glyphicon-list"></i>
-                        Grafikler
-                    </a>
-                </li>
+              
                 <li>
                     <a href="#">
                         <i class="glyphicon glyphicon-picture"></i>
@@ -85,8 +82,8 @@
                 </li>
                 <li>
                     <a href="#">
-                        <i class="glyphicon glyphicon-edit"></i>
-                        Ayarlar
+                        <i class="glyphicon glyphicon-off"></i>
+                        Çıkış Yap
                     </a>
                 </li>
             </ul>

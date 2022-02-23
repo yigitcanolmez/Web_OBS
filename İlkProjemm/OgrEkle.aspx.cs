@@ -17,7 +17,7 @@ namespace İlkProjemm
         protected void Button1_Click(object sender, EventArgs e)
         {
             DataSet1TableAdapters.TBL_OGRENCITableAdapter dt = new DataSet1TableAdapters.TBL_OGRENCITableAdapter();
-            dt.OgrEkle(TxtOgrAD.Text,TxtOgrSoyad.Text,TxtOgrTelefon.Text,TxtOgrMail.Text,TxtOgrSifre.Text,TxtOgrFoto.Text);
+            dt.OgrEkle(TxtOgrAD.Text,TxtOgrSoyad.Text,txtNumara.Text,TxtOgrTelefon.Text,TxtOgrMail.Text,TxtOgrSifre.Text,TxtOgrFoto.Text);
             Response.Redirect("Default.aspx");    
         }
     }
