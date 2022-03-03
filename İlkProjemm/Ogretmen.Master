@@ -73,7 +73,12 @@
                         Notlar
                     </a>
                 </li>
-              
+               <li>
+                    <a href="İstatistikler.aspx">
+                        <i class="glyphicon glyphicon-baby-formula"></i>
+                        İstatistikler
+                    </a>
+                </li>
                 <li>
                     <a href="#">
                         <i class="glyphicon glyphicon-picture"></i>
